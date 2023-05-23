@@ -1,0 +1,260 @@
+<!DOCTYPE HTML>
+<html lang="pt-br">
+<head>
+    <title>MAKECARD - Adminstradora de cartão convênio</title>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script data-ad-client="ca-pub-5363338393903919" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+</head>
+<body bgcolor="#CECECE">
+<div id="divLoading">
+    <img src='Spinnerloading.svg' class="ajax-loader"/>
+</div>
+<div class="geral">
+	<div class="topo">
+  		<div class="backgroundindex"></div>
+  		<div class="logomakeindex"></div>
+        <div class="administradoraindex"></div>
+    </div>
+    <div class="menu">
+        <div id="menu4">
+            <ul>
+                 <li><a href="login_adm.html" title="Área administrativa" target="frameconteudo">ADMINISTRATIVO</a></li>
+            </ul>
+        </div>
+  	</div>
+        <div class="conteudo">
+            <form action="#" method="POST" name="form_index" id="form_index">
+                <table>
+                    <tr>
+                        <td id="stylized">
+                          <h1>CONV&Ecirc;NIADO</h1>
+                          <p>&nbsp;</p>
+                          <label for="userconv">Usu&aacute;rio: <span class="small"></span> </label>
+                          <input name="userconv" id="userconv" value="" type="text" />
+                          <br />
+                          <label for="passconv">Senha: <span class="small"></span> </label>
+                          <input name="passconv" id="passconv" value="" type="password" />
+                          <br />
+                                <div class="linha_btn_entrar">
+                                    <input type="button" name="btnEntrar" id="btnEntrar" value="Entrar" title="Aqui a empresa conv&ecirc;niada entra para efetuas as vendas"/>
+                                </div>
+                          <div class="spacer"></div>
+                        </td>
+                        <td></td>
+                        <td id="stylized2">
+                            <h1>ASSOCIADO</h1>
+                            <p>&nbsp;</p>
+                            <label for="txtCartao">Cartão: <span class="small"></span> </label>
+                            <input name="txtCartao" id="txtCartao" value="" type="text" />
+                            <br />
+                            <label for="txtSenhaCartao">Senha: <span class="small"></span> </label>
+                            <input name="txtSenhaCartao" id="txtSenhaCartao" value="" type="password" />
+                            <input type="hidden" value="sim" id="autorizado" name="autorizado">
+                            <br />
+                                <div class="linha_btn_entrar">
+                                    <input type="button" name="btnEntrarAss" id="btnEntrarAss" value="Entrar" title="Aqui a empresa conv&ecirc;niada entra para efetuas as vendas"/>
+                                </div>
+                            <div class="spacer"></div>
+                        </td>
+                    </tr>
+                </table>
+            </form>
+        </div>
+    <div id="caixarodape">
+      <div class="rodape">&copy; &nbsp; 2020 &nbsp; MakeCard</div>
+    </div>
+</div>
+<!--Geral-->
+<script type="application/javascript" src="js/jquery-3.4.1.js"></script>
+<script type="text/javascript" src="js/jquery.redirect.js"></script>
+<script type="text/javascript" src="js/sweetalert2.all.js"></script>
+<script>
+    var ie = /*@cc_on!@*/false || !!document.documentMode;
+    var browser_name;
+    if(ie) {
+        alert("AVISO!, ATUALIZAMOS O SISTEMA! abre o 'GOOGLE CHROME' ou 'MOZILLA FIREFOX' e acesse 'www.makecard.com.br' para abrir o sistema do convenio, no INTERNET EXPLORER não funciona mais.");
+        browser_name = "iexplorer";
+    }else{
+        browser_name = "";
+    }
+    $(document).ready(function() {
+        $("#userconv").val("");
+        $("#passconv").val("");
+        $("#txtSenhaCartao").val("");
+        $("#cod_carteira_login").val("");
+        $("#divLoading").css("display", "none");
+
+        $("#btnEntrar").click(function (e) {
+            e.preventDefault();
+            var tipo_loginx;
+            var usuario = $("#userconv").val();
+            var senha = $("#passconv").val();
+            if (usuario === "" && senha === "") {
+                if (browser_name === "iexplorer"){
+
+                    alert("AVISO!, ATUALIZAMOS O SISTEMA! abre o 'GOOGLE CHROME' ou 'MOZILLA FIREFOX' e acesse 'www.makecard.com.br' para abrir o sistema do convenio, no INTERNET EXPLORER não funciona mais.");
+                    $.redirect('index.html');
+                }else{
+                    swal({
+                        title: "Atenção!",
+                        text: "Informe o usuário e a senha !",
+                        icon: "warning",
+                        dangerMode: true
+                    })
+                }
+            } else if (usuario === "" && senha !== "") {
+                if (browser_name === "iexplorer"){
+                    $.fallr.show({icon: 'error', content: '<p>Informe o usuário !</p>', position: 'center'});
+                }else{
+                    swal({
+                        title: "Atenção!",
+                        text: "Informe o usuário !",
+                        icon: "warning",
+                        dangerMode: true
+                    })
+                }
+            } else if (usuario !== "" && senha === "") {
+                if (browser_name === "iexplorer"){
+                    $.fallr.show({icon: 'error', content: '<p>Informe a senha !</p>', position: 'center'});
+                }else{
+                    swal({
+                        title: "Atenção!",
+                        text: "Informe a senha !",
+                        icon: "warning",
+                        dangerMode: true
+                    })
+                }
+            } else {
+
+                $.ajax({
+                    url: "localiza_convenio.php",
+                    type: "POST",
+                    data: $('#form_index').serialize(),
+                    dataType: 'json',
+                    beforeSend: function () {
+                        $("#divLoading").css("display", "block");
+                    },
+                    done: function () {
+                        $("#divLoading").css("display", "none");
+                    },
+                    success: function (data) {
+
+                        tipo_loginx = data.tipo_login;
+                        if (tipo_loginx === "login sucesso") {
+                            if (browser_name === "iexplorer"){
+                                $.fallr.show({icon: 'info', content: '<p>AVISO!, ATUALIZAMOS O SISTEMA! abre o \'GOOGLE CHROME\' ou \'MOZILLA FIREFOX\' e acesse \'www.makecard.com.br\' para abrir o sistema do convenio, no INTERNET EXPLORER não funciona mais.QUALQUER DÚVIDA LIGUE (35)99812-0032</p>', position: 'center'});
+                                $("#divLoading").css("display", "none");
+                                $.redirect('index.html');
+                            }else{
+                                $.redirect('pagina_principal.php', data);
+                            }
+
+                        } else if (tipo_loginx === "login cob") {
+                            $.redirect('msg_cob.php', data);
+                        } else if (tipo_loginx === "login inativo") {
+                            $("#divLoading").css("display", "none");
+                            if (browser_name === "iexplorer"){
+                                $.fallr.show({icon: 'info', content: '<p>Informe a senha !</p>', position: 'center'});
+                            }else{
+                                swal({
+                                    title: "Atenção!",
+                                    text: "Informe a senha !",
+                                    icon: "warning",
+                                    dangerMode: true
+                                })
+                            }
+                        } else if (tipo_loginx === "login incorreto") {
+                            $("#divLoading").css("display", "none");
+                            if (browser_name === "iexplorer"){
+                                $.fallr.show({icon: 'info', content: '<p>Login Incorreto !</p>', position: 'center'});
+                            }else{
+                                swal({
+                                    title: "Atenção!",
+                                    text: "Login Incorreto !",
+                                    icon: "warning",
+                                    dangerMode: true
+                                })
+                            }
+                        }
+                    }
+                });
+            }
+        });
+        $("#btnEntrarAss").click(function (e) {
+            e.preventDefault();
+            var tipo_loginx;
+            var cartao = $("#cod_carteira_login").val();
+            var senha = $("#txtSenhaCartao").val();
+            if (cartao === "" && senha === "") {
+                if (browser_name === "iexplorer"){
+                    $.fallr.show({icon: 'error', content: '<p>Informe o cartão e a senha !</p>', position: 'center'});
+                }else{
+                    swal({
+                        title: "Atenção!",
+                        text: "Informe o cartão e a senha !",
+                        icon: "warning",
+                        dangerMode: true
+                    })
+                }
+            } else if (cartao === "" && senha !== "") {
+                if (browser_name === "iexplorer"){
+                    $.fallr.show({icon: 'error', content: '<p>Informe o cartão !</p>', position: 'center'});
+                }else{
+                    swal({
+                        title: "Atenção!",
+                        text: "Informe o cartão ! !",
+                        icon: "warning",
+                        dangerMode: true
+                    })
+                }
+            } else if (cartao != "" && senha === "") {
+                if (browser_name === "iexplorer"){
+                    $.fallr.show({icon: 'error', content: '<p>Informe a senha !</p>', position: 'center'});
+                }else{
+                    swal({
+                        title: "Atenção!",
+                        text: "Informe a senha !",
+                        icon: "warning",
+                        dangerMode: true
+                    })
+                }
+            } else {
+                $.ajax({
+                    url: "localiza_associado_extrato.php",
+                    type: "POST",
+                    async: true,
+                    cache: false,
+                    data: $('#form_index').serialize(),
+                    dataType: 'json',
+                    beforeSend: function () {
+                        $("#divLoading").css("display", "block");
+                    },
+                    done: function () {
+                        $("#divLoading").css("display", "none");
+                    },
+                    success: function (data) {
+                        tipo_loginx = data.situacao;
+                        if (tipo_loginx === 1) {
+                            $.redirect('extratocartao/extrato.php', data);
+                        } else if (tipo_loginx === "login incorreto") {
+                            $("#divLoading").css("display", "none");
+                            if (browser_name === "iexplorer"){
+                                $.fallr.show({icon: 'info', content: '<p>Login Incorreto !</p>', position: 'center'});
+                            }else{
+                                swal({
+                                    title: "Atenção!",
+                                    text: "Login Incorreto !",
+                                    icon: "warning",
+                                    dangerMode: true
+                                })
+                            }
+                        }
+                    }
+                });
+            }
+        });
+    });
+</script>
+</body>
+</html>
