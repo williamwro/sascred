@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="84fccb5d-3ecf-420b-bc66-de657b2b73c7" name="ftphosting" url="http://74.63.238.114">
+        <fileTransfer host="74.63.238.114" port="21">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+          <option name="port" value="21" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="7d0fc880-4ad9-43b3-9c8d-d5b8e15e8426" name="makecard" url="http://makecard.com.br">
+        <fileTransfer host="makecard.com.br" port="21">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+          <option name="port" value="21" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

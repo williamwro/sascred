@@ -1,0 +1,10 @@
+[17-Nov-2022 20:45:06 UTC] PHP Notice:  Undefined variable: pdo in /home/makecard/public_html/sascred/Adm/pages/categoria_convenio/exibe.php on line 10
+[17-Nov-2022 20:45:06 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/makecard/public_html/sascred/Adm/pages/categoria_convenio/exibe.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/makecard/public_html/sascred/Adm/pages/categoria_convenio/exibe.php on line 10
+[17-Nov-2022 20:46:22 UTC] PHP Notice:  Undefined variable: pdo in /home/makecard/public_html/sascred/Adm/pages/categoria_convenio/exibe.php on line 10
+[17-Nov-2022 20:46:22 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/makecard/public_html/sascred/Adm/pages/categoria_convenio/exibe.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/makecard/public_html/sascred/Adm/pages/categoria_convenio/exibe.php on line 10

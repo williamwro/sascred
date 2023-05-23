@@ -1,0 +1,186 @@
+[26-Jun-2020 15:16:58 UTC] PHP Notice:  Undefined variable: Codigo in /home/makecard/public_html/sind/extratocartao/extrato.php on line 71
+[26-Jun-2020 15:17:18 UTC] PHP Notice:  Undefined variable: Codigo in /home/makecard/public_html/sind/extratocartao/extrato.php on line 71
+[26-Jun-2020 18:45:11 UTC] PHP Notice:  Undefined variable: Codigo in /home/makecard/public_html/sind/extratocartao/extrato.php on line 71
+[27-Jun-2020 15:17:34 UTC] PHP Notice:  Undefined variable: Codigo in /home/makecard/public_html/sind/extratocartao/extrato.php on line 71
+[27-Jun-2020 15:18:22 UTC] PHP Notice:  Undefined variable: Codigo in /home/makecard/public_html/sind/extratocartao/extrato.php on line 71
+[27-Jun-2020 18:28:48 UTC] PHP Notice:  Undefined variable: Codigo in /home/makecard/public_html/sind/extratocartao/extrato.php on line 71
+[29-Jun-2020 00:57:30 UTC] PHP Notice:  Undefined variable: Codigo in /home/makecard/public_html/sind/extratocartao/extrato.php on line 71
+[29-Jun-2020 12:11:47 UTC] PHP Notice:  Undefined variable: Codigo in /home/makecard/public_html/sind/extratocartao/extrato.php on line 71
+[29-Jun-2020 12:12:54 UTC] PHP Notice:  Undefined variable: Codigo in /home/makecard/public_html/sind/extratocartao/extrato.php on line 71
+[29-Jun-2020 12:20:48 UTC] PHP Notice:  Undefined variable: Codigo in /home/makecard/public_html/sind/extratocartao/extrato.php on line 71
+[29-Jun-2020 12:29:37 UTC] PHP Notice:  Undefined variable: Codigo in /home/makecard/public_html/sind/extratocartao/extrato.php on line 71
+[29-Jun-2020 16:25:52 UTC] PHP Notice:  Undefined variable: Codigo in /home/makecard/public_html/sind/extratocartao/extrato.php on line 71
+[29-Jun-2020 17:33:40 UTC] PHP Notice:  Undefined variable: Codigo in /home/makecard/public_html/sind/extratocartao/extrato.php on line 71
+[30-Jun-2020 09:35:51 UTC] PHP Notice:  Undefined variable: Codigo in /home/makecard/public_html/sind/extratocartao/extrato.php on line 71
+[30-Jun-2020 16:03:40 UTC] PHP Notice:  Undefined variable: Codigo in /home/makecard/public_html/sind/extratocartao/extrato.php on line 71
+[30-Jun-2020 16:03:53 UTC] PHP Notice:  Undefined variable: Codigo in /home/makecard/public_html/sind/extratocartao/extrato.php on line 71
+[30-Jun-2020 18:32:43 UTC] PHP Notice:  Undefined variable: Codigo in /home/makecard/public_html/sind/extratocartao/extrato.php on line 71
+[30-Jun-2020 18:33:03 UTC] PHP Notice:  Undefined variable: Codigo in /home/makecard/public_html/sind/extratocartao/extrato.php on line 71
+[01-Jul-2020 13:58:42 UTC] PHP Notice:  Undefined variable: Codigo in /home/makecard/public_html/sind/extratocartao/extrato.php on line 71
+[01-Jul-2020 13:58:59 UTC] PHP Notice:  Undefined variable: Codigo in /home/makecard/public_html/sind/extratocartao/extrato.php on line 71
+[01-Jul-2020 13:59:16 UTC] PHP Notice:  Undefined variable: Codigo in /home/makecard/public_html/sind/extratocartao/extrato.php on line 71
+[01-Jul-2020 16:06:06 UTC] PHP Notice:  Undefined variable: Codigo in /home/makecard/public_html/sind/extratocartao/extrato.php on line 71
+[01-Jul-2020 16:52:04 UTC] PHP Notice:  Undefined variable: Codigo in /home/makecard/public_html/sind/extratocartao/extrato.php on line 71
+[01-Jul-2020 17:03:34 UTC] PHP Notice:  Undefined variable: Codigo in /home/makecard/public_html/sind/extratocartao/extrato.php on line 71
+[01-Jul-2020 17:03:51 UTC] PHP Notice:  Undefined variable: Codigo in /home/makecard/public_html/sind/extratocartao/extrato.php on line 71
+[01-Jul-2020 17:04:13 UTC] PHP Notice:  Undefined variable: Codigo in /home/makecard/public_html/sind/extratocartao/extrato.php on line 71
+[02-Jul-2020 11:06:47 UTC] PHP Notice:  Undefined variable: Codigo in /home/makecard/public_html/sind/extratocartao/extrato.php on line 71
+[02-Jul-2020 11:06:47 UTC] PHP Notice:  Undefined variable: Empregador in /home/makecard/public_html/sind/extratocartao/extrato.php on line 71
+[02-Jul-2020 11:06:47 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42601]: Syntax error: 7 ERROR:  syntax error at end of input
+LINE 1: ...c_senhaassociado WHERE cod_associado = '' and id_empregador=
+                                                                       ^ in /home/makecard/public_html/sind/extratocartao/extrato.php:71
+Stack trace:
+#0 /home/makecard/public_html/sind/extratocartao/extrato.php(71): PDO->query('SELECT * FROM s...')
+#1 {main}
+  thrown in /home/makecard/public_html/sind/extratocartao/extrato.php on line 71
+[03-Jul-2020 13:10:32 UTC] PHP Notice:  Undefined variable: Codigo in /home/makecard/public_html/sind/extratocartao/extrato.php on line 71
+[03-Jul-2020 13:10:32 UTC] PHP Notice:  Undefined variable: Empregador in /home/makecard/public_html/sind/extratocartao/extrato.php on line 71
+[03-Jul-2020 13:10:32 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42601]: Syntax error: 7 ERROR:  syntax error at end of input
+LINE 1: ...c_senhaassociado WHERE cod_associado = '' and id_empregador=
+                                                                       ^ in /home/makecard/public_html/sind/extratocartao/extrato.php:71
+Stack trace:
+#0 /home/makecard/public_html/sind/extratocartao/extrato.php(71): PDO->query('SELECT * FROM s...')
+#1 {main}
+  thrown in /home/makecard/public_html/sind/extratocartao/extrato.php on line 71
+[03-Jul-2020 19:51:38 UTC] PHP Notice:  Undefined variable: Codigo in /home/makecard/public_html/sind/extratocartao/extrato.php on line 71
+[03-Jul-2020 19:51:38 UTC] PHP Notice:  Undefined variable: Empregador in /home/makecard/public_html/sind/extratocartao/extrato.php on line 71
+[03-Jul-2020 19:51:38 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42601]: Syntax error: 7 ERROR:  syntax error at end of input
+LINE 1: ...c_senhaassociado WHERE cod_associado = '' and id_empregador=
+                                                                       ^ in /home/makecard/public_html/sind/extratocartao/extrato.php:71
+Stack trace:
+#0 /home/makecard/public_html/sind/extratocartao/extrato.php(71): PDO->query('SELECT * FROM s...')
+#1 {main}
+  thrown in /home/makecard/public_html/sind/extratocartao/extrato.php on line 71
+[03-Jul-2020 19:52:00 UTC] PHP Notice:  Undefined variable: Codigo in /home/makecard/public_html/sind/extratocartao/extrato.php on line 71
+[03-Jul-2020 19:52:00 UTC] PHP Notice:  Undefined variable: Empregador in /home/makecard/public_html/sind/extratocartao/extrato.php on line 71
+[03-Jul-2020 19:52:00 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42601]: Syntax error: 7 ERROR:  syntax error at end of input
+LINE 1: ...c_senhaassociado WHERE cod_associado = '' and id_empregador=
+                                                                       ^ in /home/makecard/public_html/sind/extratocartao/extrato.php:71
+Stack trace:
+#0 /home/makecard/public_html/sind/extratocartao/extrato.php(71): PDO->query('SELECT * FROM s...')
+#1 {main}
+  thrown in /home/makecard/public_html/sind/extratocartao/extrato.php on line 71
+[03-Jul-2020 21:06:02 UTC] PHP Notice:  Undefined variable: Codigo in /home/makecard/public_html/sind/extratocartao/extrato.php on line 71
+[03-Jul-2020 21:06:02 UTC] PHP Notice:  Undefined variable: Empregador in /home/makecard/public_html/sind/extratocartao/extrato.php on line 71
+[03-Jul-2020 21:06:02 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42601]: Syntax error: 7 ERROR:  syntax error at end of input
+LINE 1: ...c_senhaassociado WHERE cod_associado = '' and id_empregador=
+                                                                       ^ in /home/makecard/public_html/sind/extratocartao/extrato.php:71
+Stack trace:
+#0 /home/makecard/public_html/sind/extratocartao/extrato.php(71): PDO->query('SELECT * FROM s...')
+#1 {main}
+  thrown in /home/makecard/public_html/sind/extratocartao/extrato.php on line 71
+[03-Jul-2020 21:06:22 UTC] PHP Notice:  Undefined variable: Codigo in /home/makecard/public_html/sind/extratocartao/extrato.php on line 71
+[03-Jul-2020 21:06:22 UTC] PHP Notice:  Undefined variable: Empregador in /home/makecard/public_html/sind/extratocartao/extrato.php on line 71
+[03-Jul-2020 21:06:22 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42601]: Syntax error: 7 ERROR:  syntax error at end of input
+LINE 1: ...c_senhaassociado WHERE cod_associado = '' and id_empregador=
+                                                                       ^ in /home/makecard/public_html/sind/extratocartao/extrato.php:71
+Stack trace:
+#0 /home/makecard/public_html/sind/extratocartao/extrato.php(71): PDO->query('SELECT * FROM s...')
+#1 {main}
+  thrown in /home/makecard/public_html/sind/extratocartao/extrato.php on line 71
+[04-Jul-2020 00:25:57 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[08006] [7] could not connect to server: Connection refused
+	Is the server running on host "34.95.183.208" and accepting
+	TCP/IP connections on port 5432? in /home/makecard/public_html/sind/Adm/php/banco.php:25
+Stack trace:
+#0 /home/makecard/public_html/sind/Adm/php/banco.php(25): PDO->__construct('pgsql:dbname=ma...')
+#1 /home/makecard/public_html/sind/extratocartao/extrato.php(10): Banco::conectar_postgres()
+#2 {main}
+  thrown in /home/makecard/public_html/sind/Adm/php/banco.php on line 25
+[04-Jul-2020 00:26:49 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[08006] [7] could not connect to server: Connection refused
+	Is the server running on host "34.95.183.208" and accepting
+	TCP/IP connections on port 5432? in /home/makecard/public_html/sind/Adm/php/banco.php:25
+Stack trace:
+#0 /home/makecard/public_html/sind/Adm/php/banco.php(25): PDO->__construct('pgsql:dbname=ma...')
+#1 /home/makecard/public_html/sind/extratocartao/extrato.php(10): Banco::conectar_postgres()
+#2 {main}
+  thrown in /home/makecard/public_html/sind/Adm/php/banco.php on line 25
+[04-Jul-2020 10:33:15 UTC] PHP Notice:  Undefined variable: Codigo in /home/makecard/public_html/sind/extratocartao/extrato.php on line 71
+[04-Jul-2020 10:33:15 UTC] PHP Notice:  Undefined variable: Empregador in /home/makecard/public_html/sind/extratocartao/extrato.php on line 71
+[04-Jul-2020 10:33:15 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42601]: Syntax error: 7 ERROR:  syntax error at end of input
+LINE 1: ...c_senhaassociado WHERE cod_associado = '' and id_empregador=
+                                                                       ^ in /home/makecard/public_html/sind/extratocartao/extrato.php:71
+Stack trace:
+#0 /home/makecard/public_html/sind/extratocartao/extrato.php(71): PDO->query('SELECT * FROM s...')
+#1 {main}
+  thrown in /home/makecard/public_html/sind/extratocartao/extrato.php on line 71
+[04-Jul-2020 12:07:32 UTC] PHP Notice:  Undefined variable: Codigo in /home/makecard/public_html/sind/extratocartao/extrato.php on line 71
+[04-Jul-2020 12:07:32 UTC] PHP Notice:  Undefined variable: Empregador in /home/makecard/public_html/sind/extratocartao/extrato.php on line 71
+[04-Jul-2020 12:07:32 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42601]: Syntax error: 7 ERROR:  syntax error at end of input
+LINE 1: ...c_senhaassociado WHERE cod_associado = '' and id_empregador=
+                                                                       ^ in /home/makecard/public_html/sind/extratocartao/extrato.php:71
+Stack trace:
+#0 /home/makecard/public_html/sind/extratocartao/extrato.php(71): PDO->query('SELECT * FROM s...')
+#1 {main}
+  thrown in /home/makecard/public_html/sind/extratocartao/extrato.php on line 71
+[04-Jul-2020 12:08:26 UTC] PHP Notice:  Undefined variable: Codigo in /home/makecard/public_html/sind/extratocartao/extrato.php on line 71
+[04-Jul-2020 12:08:26 UTC] PHP Notice:  Undefined variable: Empregador in /home/makecard/public_html/sind/extratocartao/extrato.php on line 71
+[04-Jul-2020 12:08:26 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42601]: Syntax error: 7 ERROR:  syntax error at end of input
+LINE 1: ...c_senhaassociado WHERE cod_associado = '' and id_empregador=
+                                                                       ^ in /home/makecard/public_html/sind/extratocartao/extrato.php:71
+Stack trace:
+#0 /home/makecard/public_html/sind/extratocartao/extrato.php(71): PDO->query('SELECT * FROM s...')
+#1 {main}
+  thrown in /home/makecard/public_html/sind/extratocartao/extrato.php on line 71
+[04-Jul-2020 13:10:49 UTC] PHP Notice:  Undefined variable: Codigo in /home/makecard/public_html/sind/extratocartao/extrato.php on line 71
+[04-Jul-2020 13:10:49 UTC] PHP Notice:  Undefined variable: Empregador in /home/makecard/public_html/sind/extratocartao/extrato.php on line 71
+[04-Jul-2020 13:10:49 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42601]: Syntax error: 7 ERROR:  syntax error at end of input
+LINE 1: ...c_senhaassociado WHERE cod_associado = '' and id_empregador=
+                                                                       ^ in /home/makecard/public_html/sind/extratocartao/extrato.php:71
+Stack trace:
+#0 /home/makecard/public_html/sind/extratocartao/extrato.php(71): PDO->query('SELECT * FROM s...')
+#1 {main}
+  thrown in /home/makecard/public_html/sind/extratocartao/extrato.php on line 71
+[04-Jul-2020 13:11:47 UTC] PHP Notice:  Undefined variable: Codigo in /home/makecard/public_html/sind/extratocartao/extrato.php on line 71
+[04-Jul-2020 13:11:47 UTC] PHP Notice:  Undefined variable: Empregador in /home/makecard/public_html/sind/extratocartao/extrato.php on line 71
+[04-Jul-2020 13:11:47 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42601]: Syntax error: 7 ERROR:  syntax error at end of input
+LINE 1: ...c_senhaassociado WHERE cod_associado = '' and id_empregador=
+                                                                       ^ in /home/makecard/public_html/sind/extratocartao/extrato.php:71
+Stack trace:
+#0 /home/makecard/public_html/sind/extratocartao/extrato.php(71): PDO->query('SELECT * FROM s...')
+#1 {main}
+  thrown in /home/makecard/public_html/sind/extratocartao/extrato.php on line 71
+[04-Jul-2020 16:22:47 UTC] PHP Notice:  Undefined variable: Codigo in /home/makecard/public_html/sind/extratocartao/extrato.php on line 71
+[04-Jul-2020 16:22:47 UTC] PHP Notice:  Undefined variable: Empregador in /home/makecard/public_html/sind/extratocartao/extrato.php on line 71
+[04-Jul-2020 16:22:47 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42601]: Syntax error: 7 ERROR:  syntax error at end of input
+LINE 1: ...c_senhaassociado WHERE cod_associado = '' and id_empregador=
+                                                                       ^ in /home/makecard/public_html/sind/extratocartao/extrato.php:71
+Stack trace:
+#0 /home/makecard/public_html/sind/extratocartao/extrato.php(71): PDO->query('SELECT * FROM s...')
+#1 {main}
+  thrown in /home/makecard/public_html/sind/extratocartao/extrato.php on line 71
+[06-Jul-2020 13:24:50 UTC] PHP Notice:  Undefined variable: Codigo in /home/makecard/public_html/sind/extratocartao/extrato.php on line 71
+[06-Jul-2020 13:24:50 UTC] PHP Notice:  Undefined variable: Empregador in /home/makecard/public_html/sind/extratocartao/extrato.php on line 71
+[06-Jul-2020 13:24:50 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42601]: Syntax error: 7 ERROR:  syntax error at end of input
+LINE 1: ...c_senhaassociado WHERE cod_associado = '' and id_empregador=
+                                                                       ^ in /home/makecard/public_html/sind/extratocartao/extrato.php:71
+Stack trace:
+#0 /home/makecard/public_html/sind/extratocartao/extrato.php(71): PDO->query('SELECT * FROM s...')
+#1 {main}
+  thrown in /home/makecard/public_html/sind/extratocartao/extrato.php on line 71
+[06-Jul-2020 16:15:55 UTC] PHP Notice:  Undefined variable: Codigo in /home/makecard/public_html/sind/extratocartao/extrato.php on line 71
+[06-Jul-2020 16:15:55 UTC] PHP Notice:  Undefined variable: Empregador in /home/makecard/public_html/sind/extratocartao/extrato.php on line 71
+[06-Jul-2020 16:15:55 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42601]: Syntax error: 7 ERROR:  syntax error at end of input
+LINE 1: ...c_senhaassociado WHERE cod_associado = '' and id_empregador=
+                                                                       ^ in /home/makecard/public_html/sind/extratocartao/extrato.php:71
+Stack trace:
+#0 /home/makecard/public_html/sind/extratocartao/extrato.php(71): PDO->query('SELECT * FROM s...')
+#1 {main}
+  thrown in /home/makecard/public_html/sind/extratocartao/extrato.php on line 71
+[06-Jul-2020 16:16:15 UTC] PHP Notice:  Undefined variable: Codigo in /home/makecard/public_html/sind/extratocartao/extrato.php on line 71
+[06-Jul-2020 16:16:15 UTC] PHP Notice:  Undefined variable: Empregador in /home/makecard/public_html/sind/extratocartao/extrato.php on line 71
+[06-Jul-2020 16:16:15 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42601]: Syntax error: 7 ERROR:  syntax error at end of input
+LINE 1: ...c_senhaassociado WHERE cod_associado = '' and id_empregador=
+                                                                       ^ in /home/makecard/public_html/sind/extratocartao/extrato.php:71
+Stack trace:
+#0 /home/makecard/public_html/sind/extratocartao/extrato.php(71): PDO->query('SELECT * FROM s...')
+#1 {main}
+  thrown in /home/makecard/public_html/sind/extratocartao/extrato.php on line 71
+[07-Jul-2020 12:17:20 UTC] PHP Notice:  Undefined variable: Codigo in /home/makecard/public_html/sind/extratocartao/extrato.php on line 71
+[07-Jul-2020 12:17:20 UTC] PHP Notice:  Undefined variable: Empregador in /home/makecard/public_html/sind/extratocartao/extrato.php on line 71
+[07-Jul-2020 12:17:21 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42601]: Syntax error: 7 ERROR:  syntax error at end of input
+LINE 1: ...c_senhaassociado WHERE cod_associado = '' and id_empregador=
+                                                                       ^ in /home/makecard/public_html/sind/extratocartao/extrato.php:71
+Stack trace:
+#0 /home/makecard/public_html/sind/extratocartao/extrato.php(71): PDO->query('SELECT * FROM s...')
+#1 {main}
+  thrown in /home/makecard/public_html/sind/extratocartao/extrato.php on line 71

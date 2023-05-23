@@ -1,0 +1,349 @@
+[10-Jun-2020 20:56:31 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42601]: Syntax error: 7 ERROR:  syntax error at or near "ORDER"
+LINE 15: ...            WHERE usuarios_menu.codigo_usuario =  ORDER BY d...
+                                                              ^ in /home/makecard/public_html/sind/Adm/index.php:156
+Stack trace:
+#0 /home/makecard/public_html/sind/Adm/index.php(156): PDO->query('SELECT dynamic_...')
+#1 {main}
+  thrown in /home/makecard/public_html/sind/Adm/index.php on line 156
+[10-Jun-2020 20:57:08 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42601]: Syntax error: 7 ERROR:  syntax error at or near "ORDER"
+LINE 15: ...            WHERE usuarios_menu.codigo_usuario =  ORDER BY d...
+                                                              ^ in /home/makecard/public_html/sind/Adm/index.php:156
+Stack trace:
+#0 /home/makecard/public_html/sind/Adm/index.php(156): PDO->query('SELECT dynamic_...')
+#1 {main}
+  thrown in /home/makecard/public_html/sind/Adm/index.php on line 156
+[12-Jun-2020 14:18:26 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42601]: Syntax error: 7 ERROR:  syntax error at or near "ORDER"
+LINE 15: ...            WHERE usuarios_menu.codigo_usuario =  ORDER BY d...
+                                                              ^ in /home/makecard/public_html/sind/Adm/index.php:156
+Stack trace:
+#0 /home/makecard/public_html/sind/Adm/index.php(156): PDO->query('SELECT dynamic_...')
+#1 {main}
+  thrown in /home/makecard/public_html/sind/Adm/index.php on line 156
+[15-Jun-2020 13:47:04 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42601]: Syntax error: 7 ERROR:  syntax error at or near "ORDER"
+LINE 15: ...            WHERE usuarios_menu.codigo_usuario =  ORDER BY d...
+                                                              ^ in /home/makecard/public_html/sind/Adm/index.php:156
+Stack trace:
+#0 /home/makecard/public_html/sind/Adm/index.php(156): PDO->query('SELECT dynamic_...')
+#1 {main}
+  thrown in /home/makecard/public_html/sind/Adm/index.php on line 156
+[15-Jun-2020 15:30:04 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42601]: Syntax error: 7 ERROR:  syntax error at or near "ORDER"
+LINE 15: ...            WHERE usuarios_menu.codigo_usuario =  ORDER BY d...
+                                                              ^ in /home/makecard/public_html/sind/Adm/index.php:156
+Stack trace:
+#0 /home/makecard/public_html/sind/Adm/index.php(156): PDO->query('SELECT dynamic_...')
+#1 {main}
+  thrown in /home/makecard/public_html/sind/Adm/index.php on line 156
+[16-Jun-2020 12:02:00 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42601]: Syntax error: 7 ERROR:  syntax error at or near "ORDER"
+LINE 15: ...            WHERE usuarios_menu.codigo_usuario =  ORDER BY d...
+                                                              ^ in /home/makecard/public_html/sind/Adm/index.php:156
+Stack trace:
+#0 /home/makecard/public_html/sind/Adm/index.php(156): PDO->query('SELECT dynamic_...')
+#1 {main}
+  thrown in /home/makecard/public_html/sind/Adm/index.php on line 156
+[16-Jun-2020 17:57:35 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42601]: Syntax error: 7 ERROR:  syntax error at or near "ORDER"
+LINE 15: ...            WHERE usuarios_menu.codigo_usuario =  ORDER BY d...
+                                                              ^ in /home/makecard/public_html/sind/Adm/index.php:156
+Stack trace:
+#0 /home/makecard/public_html/sind/Adm/index.php(156): PDO->query('SELECT dynamic_...')
+#1 {main}
+  thrown in /home/makecard/public_html/sind/Adm/index.php on line 156
+[17-Jun-2020 19:57:14 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42601]: Syntax error: 7 ERROR:  syntax error at or near "ORDER"
+LINE 15: ...            WHERE usuarios_menu.codigo_usuario =  ORDER BY d...
+                                                              ^ in /home/makecard/public_html/sind/Adm/index.php:156
+Stack trace:
+#0 /home/makecard/public_html/sind/Adm/index.php(156): PDO->query('SELECT dynamic_...')
+#1 {main}
+  thrown in /home/makecard/public_html/sind/Adm/index.php on line 156
+[18-Jun-2020 10:52:35 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42601]: Syntax error: 7 ERROR:  syntax error at or near "ORDER"
+LINE 15: ...            WHERE usuarios_menu.codigo_usuario =  ORDER BY d...
+                                                              ^ in /home/makecard/public_html/sind/Adm/index.php:155
+Stack trace:
+#0 /home/makecard/public_html/sind/Adm/index.php(155): PDO->query('SELECT dynamic_...')
+#1 {main}
+  thrown in /home/makecard/public_html/sind/Adm/index.php on line 155
+[18-Jun-2020 15:43:47 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42601]: Syntax error: 7 ERROR:  syntax error at or near "ORDER"
+LINE 15: ...            WHERE usuarios_menu.codigo_usuario =  ORDER BY d...
+                                                              ^ in /home/makecard/public_html/sind/Adm/index.php:155
+Stack trace:
+#0 /home/makecard/public_html/sind/Adm/index.php(155): PDO->query('SELECT dynamic_...')
+#1 {main}
+  thrown in /home/makecard/public_html/sind/Adm/index.php on line 155
+[18-Jun-2020 21:57:48 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42601]: Syntax error: 7 ERROR:  syntax error at or near "ORDER"
+LINE 15: ...            WHERE usuarios_menu.codigo_usuario =  ORDER BY d...
+                                                              ^ in /home/makecard/public_html/sind/Adm/index.php:155
+Stack trace:
+#0 /home/makecard/public_html/sind/Adm/index.php(155): PDO->query('SELECT dynamic_...')
+#1 {main}
+  thrown in /home/makecard/public_html/sind/Adm/index.php on line 155
+[19-Jun-2020 00:35:31 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42601]: Syntax error: 7 ERROR:  syntax error at or near "ORDER"
+LINE 15: ...            WHERE usuarios_menu.codigo_usuario =  ORDER BY d...
+                                                              ^ in /home/makecard/public_html/sind/Adm/index.php:155
+Stack trace:
+#0 /home/makecard/public_html/sind/Adm/index.php(155): PDO->query('SELECT dynamic_...')
+#1 {main}
+  thrown in /home/makecard/public_html/sind/Adm/index.php on line 155
+[19-Jun-2020 00:59:20 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42601]: Syntax error: 7 ERROR:  syntax error at or near "ORDER"
+LINE 15: ...            WHERE usuarios_menu.codigo_usuario =  ORDER BY d...
+                                                              ^ in /home/makecard/public_html/sind/Adm/index.php:155
+Stack trace:
+#0 /home/makecard/public_html/sind/Adm/index.php(155): PDO->query('SELECT dynamic_...')
+#1 {main}
+  thrown in /home/makecard/public_html/sind/Adm/index.php on line 155
+[19-Jun-2020 13:27:25 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42601]: Syntax error: 7 ERROR:  syntax error at or near "ORDER"
+LINE 15: ...            WHERE usuarios_menu.codigo_usuario =  ORDER BY d...
+                                                              ^ in /home/makecard/public_html/sind/Adm/index.php:155
+Stack trace:
+#0 /home/makecard/public_html/sind/Adm/index.php(155): PDO->query('SELECT dynamic_...')
+#1 {main}
+  thrown in /home/makecard/public_html/sind/Adm/index.php on line 155
+[19-Jun-2020 20:33:02 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42601]: Syntax error: 7 ERROR:  syntax error at or near "ORDER"
+LINE 15: ...            WHERE usuarios_menu.codigo_usuario =  ORDER BY d...
+                                                              ^ in /home/makecard/public_html/sind/Adm/index.php:155
+Stack trace:
+#0 /home/makecard/public_html/sind/Adm/index.php(155): PDO->query('SELECT dynamic_...')
+#1 {main}
+  thrown in /home/makecard/public_html/sind/Adm/index.php on line 155
+[19-Jun-2020 21:39:38 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42601]: Syntax error: 7 ERROR:  syntax error at or near "ORDER"
+LINE 15: ...            WHERE usuarios_menu.codigo_usuario =  ORDER BY d...
+                                                              ^ in /home/makecard/public_html/sind/Adm/index.php:155
+Stack trace:
+#0 /home/makecard/public_html/sind/Adm/index.php(155): PDO->query('SELECT dynamic_...')
+#1 {main}
+  thrown in /home/makecard/public_html/sind/Adm/index.php on line 155
+[20-Jun-2020 00:01:50 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42601]: Syntax error: 7 ERROR:  syntax error at or near "ORDER"
+LINE 15: ...            WHERE usuarios_menu.codigo_usuario =  ORDER BY d...
+                                                              ^ in /home/makecard/public_html/sind/Adm/index.php:155
+Stack trace:
+#0 /home/makecard/public_html/sind/Adm/index.php(155): PDO->query('SELECT dynamic_...')
+#1 {main}
+  thrown in /home/makecard/public_html/sind/Adm/index.php on line 155
+[20-Jun-2020 02:13:16 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42601]: Syntax error: 7 ERROR:  syntax error at or near "ORDER"
+LINE 15: ...            WHERE usuarios_menu.codigo_usuario =  ORDER BY d...
+                                                              ^ in /home/makecard/public_html/sind/Adm/index.php:155
+Stack trace:
+#0 /home/makecard/public_html/sind/Adm/index.php(155): PDO->query('SELECT dynamic_...')
+#1 {main}
+  thrown in /home/makecard/public_html/sind/Adm/index.php on line 155
+[20-Jun-2020 03:04:49 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42601]: Syntax error: 7 ERROR:  syntax error at or near "ORDER"
+LINE 15: ...            WHERE usuarios_menu.codigo_usuario =  ORDER BY d...
+                                                              ^ in /home/makecard/public_html/sind/Adm/index.php:155
+Stack trace:
+#0 /home/makecard/public_html/sind/Adm/index.php(155): PDO->query('SELECT dynamic_...')
+#1 {main}
+  thrown in /home/makecard/public_html/sind/Adm/index.php on line 155
+[20-Jun-2020 12:18:03 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42601]: Syntax error: 7 ERROR:  syntax error at or near "ORDER"
+LINE 15: ...            WHERE usuarios_menu.codigo_usuario =  ORDER BY d...
+                                                              ^ in /home/makecard/public_html/sind/Adm/index.php:155
+Stack trace:
+#0 /home/makecard/public_html/sind/Adm/index.php(155): PDO->query('SELECT dynamic_...')
+#1 {main}
+  thrown in /home/makecard/public_html/sind/Adm/index.php on line 155
+[20-Jun-2020 13:44:23 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42601]: Syntax error: 7 ERROR:  syntax error at or near "ORDER"
+LINE 15: ...            WHERE usuarios_menu.codigo_usuario =  ORDER BY d...
+                                                              ^ in /home/makecard/public_html/sind/Adm/index.php:155
+Stack trace:
+#0 /home/makecard/public_html/sind/Adm/index.php(155): PDO->query('SELECT dynamic_...')
+#1 {main}
+  thrown in /home/makecard/public_html/sind/Adm/index.php on line 155
+[20-Jun-2020 16:02:49 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42601]: Syntax error: 7 ERROR:  syntax error at or near "ORDER"
+LINE 15: ...            WHERE usuarios_menu.codigo_usuario =  ORDER BY d...
+                                                              ^ in /home/makecard/public_html/sind/Adm/index.php:155
+Stack trace:
+#0 /home/makecard/public_html/sind/Adm/index.php(155): PDO->query('SELECT dynamic_...')
+#1 {main}
+  thrown in /home/makecard/public_html/sind/Adm/index.php on line 155
+[22-Jun-2020 15:21:04 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42601]: Syntax error: 7 ERROR:  syntax error at or near "ORDER"
+LINE 15: ...            WHERE usuarios_menu.codigo_usuario =  ORDER BY d...
+                                                              ^ in /home/makecard/public_html/sind/Adm/index.php:155
+Stack trace:
+#0 /home/makecard/public_html/sind/Adm/index.php(155): PDO->query('SELECT dynamic_...')
+#1 {main}
+  thrown in /home/makecard/public_html/sind/Adm/index.php on line 155
+[22-Jun-2020 15:52:32 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42601]: Syntax error: 7 ERROR:  syntax error at or near "ORDER"
+LINE 15: ...            WHERE usuarios_menu.codigo_usuario =  ORDER BY d...
+                                                              ^ in /home/makecard/public_html/sind/Adm/index.php:155
+Stack trace:
+#0 /home/makecard/public_html/sind/Adm/index.php(155): PDO->query('SELECT dynamic_...')
+#1 {main}
+  thrown in /home/makecard/public_html/sind/Adm/index.php on line 155
+[22-Jun-2020 16:03:23 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42601]: Syntax error: 7 ERROR:  syntax error at or near "ORDER"
+LINE 15: ...            WHERE usuarios_menu.codigo_usuario =  ORDER BY d...
+                                                              ^ in /home/makecard/public_html/sind/Adm/index.php:155
+Stack trace:
+#0 /home/makecard/public_html/sind/Adm/index.php(155): PDO->query('SELECT dynamic_...')
+#1 {main}
+  thrown in /home/makecard/public_html/sind/Adm/index.php on line 155
+[22-Jun-2020 16:19:39 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42601]: Syntax error: 7 ERROR:  syntax error at or near "ORDER"
+LINE 15: ...            WHERE usuarios_menu.codigo_usuario =  ORDER BY d...
+                                                              ^ in /home/makecard/public_html/sind/Adm/index.php:155
+Stack trace:
+#0 /home/makecard/public_html/sind/Adm/index.php(155): PDO->query('SELECT dynamic_...')
+#1 {main}
+  thrown in /home/makecard/public_html/sind/Adm/index.php on line 155
+[22-Jun-2020 16:33:24 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42601]: Syntax error: 7 ERROR:  syntax error at or near "ORDER"
+LINE 15: ...            WHERE usuarios_menu.codigo_usuario =  ORDER BY d...
+                                                              ^ in /home/makecard/public_html/sind/Adm/index.php:155
+Stack trace:
+#0 /home/makecard/public_html/sind/Adm/index.php(155): PDO->query('SELECT dynamic_...')
+#1 {main}
+  thrown in /home/makecard/public_html/sind/Adm/index.php on line 155
+[23-Jun-2020 16:52:09 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42601]: Syntax error: 7 ERROR:  syntax error at or near "ORDER"
+LINE 15: ...            WHERE usuarios_menu.codigo_usuario =  ORDER BY d...
+                                                              ^ in /home/makecard/public_html/sind/Adm/index.php:155
+Stack trace:
+#0 /home/makecard/public_html/sind/Adm/index.php(155): PDO->query('SELECT dynamic_...')
+#1 {main}
+  thrown in /home/makecard/public_html/sind/Adm/index.php on line 155
+[23-Jun-2020 18:11:42 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42601]: Syntax error: 7 ERROR:  syntax error at or near "ORDER"
+LINE 15: ...            WHERE usuarios_menu.codigo_usuario =  ORDER BY d...
+                                                              ^ in /home/makecard/public_html/sind/Adm/index.php:155
+Stack trace:
+#0 /home/makecard/public_html/sind/Adm/index.php(155): PDO->query('SELECT dynamic_...')
+#1 {main}
+  thrown in /home/makecard/public_html/sind/Adm/index.php on line 155
+[25-Jun-2020 14:54:35 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42601]: Syntax error: 7 ERROR:  syntax error at or near "ORDER"
+LINE 15: ...            WHERE usuarios_menu.codigo_usuario =  ORDER BY d...
+                                                              ^ in /home/makecard/public_html/sind/Adm/index.php:155
+Stack trace:
+#0 /home/makecard/public_html/sind/Adm/index.php(155): PDO->query('SELECT dynamic_...')
+#1 {main}
+  thrown in /home/makecard/public_html/sind/Adm/index.php on line 155
+[26-Jun-2020 19:38:59 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42601]: Syntax error: 7 ERROR:  syntax error at or near "ORDER"
+LINE 15: ...            WHERE usuarios_menu.codigo_usuario =  ORDER BY d...
+                                                              ^ in /home/makecard/public_html/sind/Adm/index.php:155
+Stack trace:
+#0 /home/makecard/public_html/sind/Adm/index.php(155): PDO->query('SELECT dynamic_...')
+#1 {main}
+  thrown in /home/makecard/public_html/sind/Adm/index.php on line 155
+[26-Jun-2020 20:04:16 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42601]: Syntax error: 7 ERROR:  syntax error at or near "ORDER"
+LINE 15: ...            WHERE usuarios_menu.codigo_usuario =  ORDER BY d...
+                                                              ^ in /home/makecard/public_html/sind/Adm/index.php:129
+Stack trace:
+#0 /home/makecard/public_html/sind/Adm/index.php(129): PDO->query('SELECT dynamic_...')
+#1 {main}
+  thrown in /home/makecard/public_html/sind/Adm/index.php on line 129
+[26-Jun-2020 20:21:59 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42601]: Syntax error: 7 ERROR:  syntax error at or near "ORDER"
+LINE 15: ...            WHERE usuarios_menu.codigo_usuario =  ORDER BY d...
+                                                              ^ in /home/makecard/public_html/sind/Adm/index.php:129
+Stack trace:
+#0 /home/makecard/public_html/sind/Adm/index.php(129): PDO->query('SELECT dynamic_...')
+#1 {main}
+  thrown in /home/makecard/public_html/sind/Adm/index.php on line 129
+[29-Jun-2020 18:54:41 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42601]: Syntax error: 7 ERROR:  syntax error at or near "ORDER"
+LINE 15: ...            WHERE usuarios_menu.codigo_usuario =  ORDER BY d...
+                                                              ^ in /home/makecard/public_html/sind/Adm/index.php:129
+Stack trace:
+#0 /home/makecard/public_html/sind/Adm/index.php(129): PDO->query('SELECT dynamic_...')
+#1 {main}
+  thrown in /home/makecard/public_html/sind/Adm/index.php on line 129
+[29-Jun-2020 18:54:46 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42601]: Syntax error: 7 ERROR:  syntax error at or near "ORDER"
+LINE 15: ...            WHERE usuarios_menu.codigo_usuario =  ORDER BY d...
+                                                              ^ in /home/makecard/public_html/sind/Adm/index.php:129
+Stack trace:
+#0 /home/makecard/public_html/sind/Adm/index.php(129): PDO->query('SELECT dynamic_...')
+#1 {main}
+  thrown in /home/makecard/public_html/sind/Adm/index.php on line 129
+[30-Jun-2020 13:30:15 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42601]: Syntax error: 7 ERROR:  syntax error at or near "ORDER"
+LINE 15: ...            WHERE usuarios_menu.codigo_usuario =  ORDER BY d...
+                                                              ^ in /home/makecard/public_html/sind/Adm/index.php:166
+Stack trace:
+#0 /home/makecard/public_html/sind/Adm/index.php(166): PDO->query('SELECT dynamic_...')
+#1 {main}
+  thrown in /home/makecard/public_html/sind/Adm/index.php on line 166
+[03-Jul-2020 16:49:37 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42601]: Syntax error: 7 ERROR:  syntax error at or near "ORDER"
+LINE 15: ...            WHERE usuarios_menu.codigo_usuario =  ORDER BY d...
+                                                              ^ in /home/makecard/public_html/sind/Adm/index.php:168
+Stack trace:
+#0 /home/makecard/public_html/sind/Adm/index.php(168): PDO->query('SELECT dynamic_...')
+#1 {main}
+  thrown in /home/makecard/public_html/sind/Adm/index.php on line 168
+[06-Jul-2020 15:39:38 UTC] PHP Notice:  Undefined variable: usuario in /home/makecard/public_html/sind/Adm/index.php on line 117
+[06-Jul-2020 15:39:38 UTC] PHP Notice:  Undefined variable: cod_usuario in /home/makecard/public_html/sind/Adm/index.php on line 168
+[06-Jul-2020 15:39:38 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42601]: Syntax error: 7 ERROR:  syntax error at or near "ORDER"
+LINE 15: ...            WHERE usuarios_menu.codigo_usuario =  ORDER BY d...
+                                                              ^ in /home/makecard/public_html/sind/Adm/index.php:168
+Stack trace:
+#0 /home/makecard/public_html/sind/Adm/index.php(168): PDO->query('SELECT dynamic_...')
+#1 {main}
+  thrown in /home/makecard/public_html/sind/Adm/index.php on line 168
+[06-Jul-2020 15:39:56 UTC] PHP Notice:  Undefined variable: usuario in /home/makecard/public_html/sind/Adm/index.php on line 117
+[06-Jul-2020 15:39:56 UTC] PHP Notice:  Undefined variable: cod_usuario in /home/makecard/public_html/sind/Adm/index.php on line 168
+[06-Jul-2020 15:39:56 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42601]: Syntax error: 7 ERROR:  syntax error at or near "ORDER"
+LINE 15: ...            WHERE usuarios_menu.codigo_usuario =  ORDER BY d...
+                                                              ^ in /home/makecard/public_html/sind/Adm/index.php:168
+Stack trace:
+#0 /home/makecard/public_html/sind/Adm/index.php(168): PDO->query('SELECT dynamic_...')
+#1 {main}
+  thrown in /home/makecard/public_html/sind/Adm/index.php on line 168
+[06-Jul-2020 15:46:27 UTC] PHP Notice:  Undefined variable: usuario in /home/makecard/public_html/sind/Adm/index.php on line 117
+[06-Jul-2020 15:46:27 UTC] PHP Notice:  Undefined variable: cod_usuario in /home/makecard/public_html/sind/Adm/index.php on line 168
+[06-Jul-2020 15:46:27 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42601]: Syntax error: 7 ERROR:  syntax error at or near "ORDER"
+LINE 15: ...            WHERE usuarios_menu.codigo_usuario =  ORDER BY d...
+                                                              ^ in /home/makecard/public_html/sind/Adm/index.php:168
+Stack trace:
+#0 /home/makecard/public_html/sind/Adm/index.php(168): PDO->query('SELECT dynamic_...')
+#1 {main}
+  thrown in /home/makecard/public_html/sind/Adm/index.php on line 168
+[06-Jul-2020 15:50:16 UTC] PHP Notice:  Undefined variable: usuario in /home/makecard/public_html/sind/Adm/index.php on line 117
+[06-Jul-2020 15:50:16 UTC] PHP Notice:  Undefined variable: cod_usuario in /home/makecard/public_html/sind/Adm/index.php on line 168
+[06-Jul-2020 15:50:16 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42601]: Syntax error: 7 ERROR:  syntax error at or near "ORDER"
+LINE 15: ...            WHERE usuarios_menu.codigo_usuario =  ORDER BY d...
+                                                              ^ in /home/makecard/public_html/sind/Adm/index.php:168
+Stack trace:
+#0 /home/makecard/public_html/sind/Adm/index.php(168): PDO->query('SELECT dynamic_...')
+#1 {main}
+  thrown in /home/makecard/public_html/sind/Adm/index.php on line 168
+[06-Jul-2020 15:51:34 UTC] PHP Notice:  Undefined variable: usuario in /home/makecard/public_html/sind/Adm/index.php on line 117
+[06-Jul-2020 15:51:34 UTC] PHP Notice:  Undefined variable: cod_usuario in /home/makecard/public_html/sind/Adm/index.php on line 168
+[06-Jul-2020 15:51:34 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42601]: Syntax error: 7 ERROR:  syntax error at or near "ORDER"
+LINE 15: ...            WHERE usuarios_menu.codigo_usuario =  ORDER BY d...
+                                                              ^ in /home/makecard/public_html/sind/Adm/index.php:168
+Stack trace:
+#0 /home/makecard/public_html/sind/Adm/index.php(168): PDO->query('SELECT dynamic_...')
+#1 {main}
+  thrown in /home/makecard/public_html/sind/Adm/index.php on line 168
+[07-Jul-2020 19:08:50 UTC] PHP Notice:  Undefined variable: usuario in /home/makecard/public_html/sind/Adm/index.php on line 117
+[07-Jul-2020 19:08:50 UTC] PHP Notice:  Undefined variable: cod_usuario in /home/makecard/public_html/sind/Adm/index.php on line 168
+[07-Jul-2020 19:08:50 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42601]: Syntax error: 7 ERROR:  syntax error at or near "ORDER"
+LINE 15: ...            WHERE usuarios_menu.codigo_usuario =  ORDER BY d...
+                                                              ^ in /home/makecard/public_html/sind/Adm/index.php:168
+Stack trace:
+#0 /home/makecard/public_html/sind/Adm/index.php(168): PDO->query('SELECT dynamic_...')
+#1 {main}
+  thrown in /home/makecard/public_html/sind/Adm/index.php on line 168
+[07-Jul-2020 19:09:06 UTC] PHP Notice:  Undefined variable: usuario in /home/makecard/public_html/sind/Adm/index.php on line 117
+[07-Jul-2020 19:09:06 UTC] PHP Notice:  Undefined variable: cod_usuario in /home/makecard/public_html/sind/Adm/index.php on line 168
+[07-Jul-2020 19:09:06 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42601]: Syntax error: 7 ERROR:  syntax error at or near "ORDER"
+LINE 15: ...            WHERE usuarios_menu.codigo_usuario =  ORDER BY d...
+                                                              ^ in /home/makecard/public_html/sind/Adm/index.php:168
+Stack trace:
+#0 /home/makecard/public_html/sind/Adm/index.php(168): PDO->query('SELECT dynamic_...')
+#1 {main}
+  thrown in /home/makecard/public_html/sind/Adm/index.php on line 168
+[08-Dec-2022 23:01:47 UTC] PHP Notice:  Undefined variable: usuario in /home/makecard/public_html/sascred/Adm/index.php on line 171
+[08-Dec-2022 23:01:47 UTC] PHP Notice:  Undefined variable: cod_usuario in /home/makecard/public_html/sascred/Adm/index.php on line 222
+[08-Dec-2022 23:01:47 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42601]: Syntax error: 7 ERROR:  syntax error at or near "ORDER"
+LINE 15: ...            WHERE usuarios_menu.codigo_usuario =  ORDER BY d...
+                                                              ^ in /home/makecard/public_html/sascred/Adm/index.php:222
+Stack trace:
+#0 /home/makecard/public_html/sascred/Adm/index.php(222): PDO->query('SELECT dynamic_...')
+#1 {main}
+  thrown in /home/makecard/public_html/sascred/Adm/index.php on line 222
+[10-Dec-2022 13:50:13 UTC] PHP Notice:  Undefined variable: usuario in /home/makecard/public_html/sascred/Adm/index.php on line 171
+[10-Dec-2022 13:50:13 UTC] PHP Notice:  Undefined variable: cod_usuario in /home/makecard/public_html/sascred/Adm/index.php on line 222
+[10-Dec-2022 13:50:13 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42601]: Syntax error: 7 ERROR:  syntax error at or near "ORDER"
+LINE 15: ...            WHERE usuarios_menu.codigo_usuario =  ORDER BY d...
+                                                              ^ in /home/makecard/public_html/sascred/Adm/index.php:222
+Stack trace:
+#0 /home/makecard/public_html/sascred/Adm/index.php(222): PDO->query('SELECT dynamic_...')
+#1 {main}
+  thrown in /home/makecard/public_html/sascred/Adm/index.php on line 222
+[10-Dec-2022 13:50:21 UTC] PHP Notice:  Undefined variable: usuario in /home/makecard/public_html/sascred/Adm/index.php on line 171
+[10-Dec-2022 13:50:21 UTC] PHP Notice:  Undefined variable: cod_usuario in /home/makecard/public_html/sascred/Adm/index.php on line 222
+[10-Dec-2022 13:50:21 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42601]: Syntax error: 7 ERROR:  syntax error at or near "ORDER"
+LINE 15: ...            WHERE usuarios_menu.codigo_usuario =  ORDER BY d...
+                                                              ^ in /home/makecard/public_html/sascred/Adm/index.php:222
+Stack trace:
+#0 /home/makecard/public_html/sascred/Adm/index.php(222): PDO->query('SELECT dynamic_...')
+#1 {main}
+  thrown in /home/makecard/public_html/sascred/Adm/index.php on line 222
